@@ -1,0 +1,167 @@
+/* ============================================
+   About Section
+   ============================================ */
+
+.about-section {
+  background: linear-gradient(180deg, var(--bg-paper) 0%, var(--bg-paper-light) 50%, var(--bg-paper) 100%);
+}
+
+.about-section__grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 40px;
+  align-items: start;
+}
+
+/* Bio Card */
+.about-section__bio-card {
+  background: var(--bg-paper-light);
+  border: 1px solid var(--border-aged);
+  border-radius: 16px;
+  padding: 40px;
+  position: relative;
+  box-shadow: var(--shadow-paper);
+  transition: var(--transition-smooth);
+}
+
+.about-section__bio-card:hover {
+  box-shadow: var(--shadow-paper-hover);
+  transform: translateY(-2px);
+}
+
+.about-section__quote-mark {
+  position: absolute;
+  top: 16px;
+  left: 24px;
+  font-family: var(--font-heading);
+  font-size: 5rem;
+  color: var(--accent-gold-light);
+  line-height: 1;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.about-section__avatar-wrapper {
+  float: left;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  background: var(--bg-paper-dark);
+  border: 2px dashed var(--border-aged);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  shape-outside: circle(50%);
+  z-index: 1;
+}
+
+.about-section__avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  z-index: 2;
+}
+
+.about-section__avatar-fallback {
+  position: absolute;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-ink-muted);
+  letter-spacing: 1px;
+  z-index: 1;
+}
+
+.about-section__bio-card p {
+  color: var(--text-ink-medium);
+  margin-bottom: 16px;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.about-section__bio-card p:last-child {
+  margin-bottom: 0;
+}
+
+.about-section__bio-card strong {
+  color: var(--accent-sepia);
+  font-weight: 600;
+}
+
+/* Info Cards */
+.about-section__info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.about-section__info-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px 24px;
+  background: var(--bg-paper-light);
+  border: 1px solid var(--border-light);
+  border-radius: 14px;
+  box-shadow: var(--shadow-paper);
+  transition: var(--transition-smooth);
+  cursor: default;
+}
+
+.about-section__info-card:hover {
+  border-color: var(--accent-gold);
+  box-shadow: 0 0 12px rgba(201, 168, 76, 0.15);
+  transform: translateX(4px);
+}
+
+.about-section__info-icon {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(201, 168, 76, 0.1), rgba(201, 168, 76, 0.05));
+  color: var(--accent-sepia);
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+.about-section__info-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-section__info-label {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--text-ink-muted);
+}
+
+.about-section__info-value {
+  font-family: var(--font-body);
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-ink);
+  margin-top: 2px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-section__grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .about-section__bio-card {
+    padding: 30px;
+  }
+}

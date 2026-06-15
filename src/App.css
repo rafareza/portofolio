@@ -1,0 +1,18 @@
+/* ============================================
+   App Layout
+   ============================================ */
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app > main {
+  flex: 1;
+}
+
+/* Ensure sections have consistent padding at bottom for dock clearance */
+.app > main > section:last-child {
+  padding-bottom: 120px;
+}

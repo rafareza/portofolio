@@ -1,0 +1,57 @@
+/* ============================================
+   Section Header
+   ============================================ */
+
+.section-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.section-header__ornament {
+  font-size: 18px;
+  color: var(--accent-gold);
+  margin-bottom: 12px;
+  letter-spacing: 8px;
+}
+
+.section-header__title {
+  font-family: var(--font-heading);
+  font-weight: 800;
+  color: var(--text-ink);
+  margin-bottom: 12px;
+  position: relative;
+  display: inline-block;
+}
+
+.section-header__subtitle {
+  font-family: var(--font-body);
+  color: var(--text-ink-light);
+  font-size: 1.05rem;
+  font-style: italic;
+  max-width: 500px;
+  margin: 0 auto 20px;
+}
+
+.section-header__divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.section-header__line {
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--accent-gold));
+}
+
+.section-header__line:last-child {
+  background: linear-gradient(90deg, var(--accent-gold), transparent);
+}
+
+.section-header__diamond {
+  font-size: 8px;
+  color: var(--accent-gold);
+}

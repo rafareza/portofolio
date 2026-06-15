@@ -1,0 +1,105 @@
+/* ============================================
+   Magnetic Dock
+   ============================================ */
+
+.magnetic-dock {
+  position: fixed;
+  bottom: 16px;
+  left: 50%;
+  z-index: 1000;
+  width: max-content;
+  max-width: calc(100vw - 32px);
+  display: flex;
+  justify-content: center;
+}
+
+.dock-container {
+  display: flex;
+  align-items: flex-end;
+  gap: 6px;
+  padding: 10px 14px;
+  background: rgba(245, 240, 232, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--border-aged);
+  border-radius: 20px;
+  box-shadow:
+    0 8px 32px rgba(44, 36, 22, 0.12),
+    inset 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+.dock-item-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dock-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+  background: linear-gradient(145deg, var(--bg-paper-light), var(--bg-paper-dark));
+  border: 1px solid var(--border-light);
+  color: var(--text-ink-medium);
+  cursor: pointer;
+  transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+  box-shadow: 0 2px 6px rgba(44, 36, 22, 0.08);
+}
+
+.dock-item:hover {
+  background: linear-gradient(145deg, var(--accent-gold-light), var(--accent-gold));
+  border-color: var(--accent-gold);
+  color: var(--text-ink);
+  box-shadow: var(--shadow-neon);
+}
+
+.dock-icon {
+  width: 45%;
+  height: 45%;
+  pointer-events: none;
+}
+
+.dock-tooltip {
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 4px 12px;
+  background: var(--text-ink);
+  color: var(--bg-paper);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  border-radius: 8px;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.dock-tooltip::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 5px solid transparent;
+  border-top-color: var(--text-ink);
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .dock-container {
+    gap: 4px;
+    padding: 8px 10px;
+    border-radius: 16px;
+  }
+}
+
+@media (max-width: 360px) {
+  .magnetic-dock {
+    transform: translateX(-50%) scale(0.85) !important;
+    transform-origin: bottom center;
+  }
+}
