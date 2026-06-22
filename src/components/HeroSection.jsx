@@ -63,8 +63,7 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8, duration: 0.5 }}
         >
-          Mahasiswa Sistem Informasi di Universitas Gunadarma, Bekasi.
-          Passionate dalam membangun pengalaman web yang interaktif dan modern.
+          Information Systems student at Gunadarma University. Passionate and technology enthusiast
         </motion.p>
 
         <motion.div

@@ -5,28 +5,28 @@ import './CertificatesSection.css';
 
 const certificates = [
   {
-    title: 'Belajar Dasar Pemrograman Web',
-    org: 'Dicoding Indonesia',
-    date: '2024',
-    link: 'https://www.dicoding.com/certificates/07Z6G4V4QZQR',
+    title: 'Bootcamp: Data Analyst FIKTI Learning',
+    org: 'Gunadarma University',
+    date: '28 May 2023',
+    link: 'https://drive.google.com/file/d/1rP3gV4iMsG7eY1ZbyAabsWYeADu2eqOk/view',
   },
   {
-    title: 'Belajar Membuat Front-End Web untuk Pemula',
-    org: 'Dicoding Indonesia',
-    date: '2024',
-    link: 'https://www.dicoding.com/certificates/GRX5OKWVQP0M',
+    title: 'Bootcamp: Web Development FIKTI Learning',
+    org: 'Gunadarma University',
+    date: '19 May 2024',
+    link: 'https://drive.google.com/file/d/1fHt1ChT_3GCWdUpEBsj3ynnjlVlS6NT-/view',
   },
   {
-    title: 'Belajar Dasar Pemrograman JavaScript',
-    org: 'Dicoding Indonesia',
-    date: '2024',
-    link: 'https://www.dicoding.com/certificates/L4PQ8YN61XO1',
+    title: 'Workshop: Javascript Fundamental Analysis',
+    org: 'Gunadarma University',
+    date: '23 August 2024',
+    link: 'https://drive.google.com/file/d/1EAYolRzkjaqxQ9XZijlyNd2R3JED70yS/view',
   },
   {
-    title: 'Belajar Dasar AI',
-    org: 'Dicoding Indonesia',
-    date: '2024',
-    link: 'https://www.dicoding.com/certificates/1OP8LGNVQXQK',
+    title: 'Vinix7: Divisi Data Sains',
+    org: 'Vinix7',
+    date: '28 December 2025',
+    link: 'https://drive.google.com/file/d/1bTW7J1Bkx9n812H-nBRsyoxvo-msTTMA/view',
   },
 ];
 
@@ -44,7 +44,7 @@ export default function CertificatesSection() {
   return (
     <section id="certificates" className="section certificates-section">
       <div className="container">
-        <SectionHeader title="Certificates" subtitle="Sertifikat yang telah saya peroleh" />
+        <SectionHeader title="Certificates" subtitle="Certificates Obtained" />
 
         <motion.div
           className="certificates-section__list"

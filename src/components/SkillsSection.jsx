@@ -44,7 +44,7 @@ export default function SkillsSection() {
   return (
     <section id="skills" className="section skills-section">
       <div className="container">
-        <SectionHeader title="Skills" subtitle="Teknologi dan tools yang saya kuasai" />
+        <SectionHeader title="Skills" subtitle="Technologies and tools I use" />
 
         <motion.div
           className="skills-section__grid"

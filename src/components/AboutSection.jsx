@@ -4,10 +4,10 @@ import SectionHeader from './SectionHeader';
 import './AboutSection.css';
 
 const infoCards = [
-  { icon: FiUser, label: 'Nama', value: 'Rafa Rezandrya Jaelani' },
-  { icon: FiBookOpen, label: 'Jurusan', value: 'Sistem Informasi' },
-  { icon: FiMapPin, label: 'Lokasi', value: 'Bekasi, Indonesia' },
-  { icon: FiAward, label: 'IPK', value: '3.72 / 4.00' },
+  { icon: FiUser, label: 'Name', value: 'Rafa Rezandrya Jaelani' },
+  { icon: FiBookOpen, label: 'Major', value: 'Information Systems' },
+  { icon: FiMapPin, label: 'Location', value: 'Bekasi, Indonesia' },
+  { icon: FiAward, label: 'GPA', value: '3.72 / 4.00' },
 ];
 
 const containerVariants = {
@@ -26,7 +26,7 @@ export default function AboutSection() {
   return (
     <section id="about" className="section about-section">
       <div className="container">
-        <SectionHeader title="About Me" subtitle="Mengenal lebih dekat tentang saya" />
+        <SectionHeader title="About Me" subtitle="Get to know me" />
 
         <motion.div
           className="about-section__grid"
@@ -50,18 +50,16 @@ export default function AboutSection() {
               </div>
 
               <p>
-                Saya adalah mahasiswa Sistem Informasi di Universitas Gunadarma 
-                yang memiliki minat dan passion dalam bidang Frontend Web Development, Data Analitics, UI/UX Design.
+                I am an Information Systems student at Gunadarma University with an interest and passion for front-end web development, 
+                data analytics, and UI/UX design.
               </p>
               <p>
-                Saya senang mempelajari teknologi baru dan membangun pengalaman web
-                yang interaktif, responsif, dan user-friendly. Saat ini saya sedang
-                aktif mengembangkan skill di ReactJS, Python dan teknologi web modern lainnya.
+                I enjoy learning new technologies and building interactive, responsive, and user-friendly web experiences. Currently, 
+                I am actively developing my skills in ReactJS, Python, and other modern web technologies.
               </p>
               <p>
-                Selain coding, saya juga tertarik dengan UI/UX design dan selalu
-                berusaha menggabungkan estetika visual dengan fungsionalitas
-                yang baik dalam setiap project yang saya kerjakan.
+                In addition to coding, 
+                I’m also interested in UI/UX design and always strive to combine visual aesthetics with strong functionality in every project I work on.
               </p>
             </div>
           </motion.div>

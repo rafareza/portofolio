@@ -51,7 +51,7 @@ export default function ContactSection() {
   return (
     <section id="contact" className="section contact-section">
       <div className="container">
-        <SectionHeader title="Contact" subtitle="Mari terhubung dan berkolaborasi" />
+        <SectionHeader title="Contact" subtitle="Let’s connect and collaborate" />
 
         <motion.div
           className="contact-section__grid"
@@ -64,8 +64,8 @@ export default function ContactSection() {
           <motion.div className="contact-section__info" variants={itemVariants}>
             <h3 className="contact-section__info-title">Get In Touch</h3>
             <p className="contact-section__info-desc">
-              Jangan ragu untuk menghubungi saya jika Anda tertarik untuk berkolaborasi
-              atau memiliki pertanyaan. Saya selalu terbuka untuk peluang dan diskusi baru.
+               feel free to contact me if you're interested in collaborating or have any questions. 
+               I'm always open to new opportunities and discussions
             </p>
 
             <div className="contact-section__info-list">
