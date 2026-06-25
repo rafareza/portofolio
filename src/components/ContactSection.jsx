@@ -8,13 +8,13 @@ import './ContactSection.css';
 const contactInfo = [
   { icon: FiMail, label: 'Email', value: 'rafa.rezandrya08@gmail.com', href: 'mailto:rafa.rezandrya08@gmail.com' },
   { icon: FiMapPin, label: 'Lokasi', value: 'Bekasi, Indonesia', href: null },
-  { icon: FiPhone, label: 'Phone', value: '+6285894109114', href: 'https://wa.me/6285894109114' },
+  { icon: FiPhone, label: 'Phone', value: '+6285894109114', href: 'https://wa.me/6285894109114', target: 'blank'},
 ];
 
 const socialLinks = [
-  { icon: FiGithub, label: 'GitHub', href: 'https://github.com/rafarezandrya' },
-  { icon: FiLinkedin, label: 'LinkedIn', href: 'https://linkedin.com/in/rafarezandrya' },
-  { icon: FiInstagram, label: 'Instagram', href: 'https://instagram.com/rafarezandrya_' },
+  { icon: FiGithub, label: 'GitHub', href: 'https://github.com/rafareza' },
+  { icon: FiLinkedin, label: 'LinkedIn', href: 'https://www.linkedin.com/in/rafa-rezandrya-jaelani-070137391' },
+  { icon: FiInstagram, label: 'Instagram', href: 'https://www.instagram.com/rafa.reza_/' },
 ];
 
 const containerVariants = {

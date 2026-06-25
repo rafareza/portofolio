@@ -1,11 +1,12 @@
 import { motion } from 'framer-motion';
 import { FiUser, FiBookOpen, FiMapPin, FiAward } from 'react-icons/fi';
 import SectionHeader from './SectionHeader';
+import rezaImg from '../assets/reza.jpeg';
 import './AboutSection.css';
 
 const infoCards = [
   { icon: FiUser, label: 'Name', value: 'Rafa Rezandrya Jaelani' },
-  { icon: FiBookOpen, label: 'Major', value: 'Information Systems' },
+  { icon: FiBookOpen, label: 'Major', value: 'Information System' },
   { icon: FiMapPin, label: 'Location', value: 'Bekasi, Indonesia' },
   { icon: FiAward, label: 'GPA', value: '3.72 / 4.00' },
 ];
@@ -41,7 +42,7 @@ export default function AboutSection() {
               
               <div className="about-section__avatar-wrapper" title="Ganti '/profile.jpg' dengan fotomu">
                 <img 
-                  src="/profile.jpg" 
+                  src={rezaImg} 
                   alt="Profile" 
                   className="about-section__avatar"
                   onError={(e) => { e.target.style.display = 'none'; }}

@@ -45,14 +45,6 @@ const projects = [
     github: null,
     demo: 'https://www.figma.com/proto/KAwUZgVfSJbND6TGMCthHt/jacoffee?page-id=0%3A1&node-id=431-6742&p=f&viewport=-1638%2C257%2C0.18&t=nzovOmIiJ7AaWPhI-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=431%3A6720',
   },
-  {
-    icon: FaStore,
-    title: 'Buku Harian Digital', 
-    desc: 'Aplikasi buku harian digital yang membantu pengguna mencatat kegiatan harian dengan mudah. Dilengkapi fitur pengingat dan keamanan.',
-    tech: ['React', 'CSS', 'JavaScript'],
-    github: 'https://github.com/rafarezandrya/buku-harian-digital',
-    demo: null,
-  },
 ];
 
 const containerVariants = {

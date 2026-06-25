@@ -11,9 +11,9 @@ const quickLinks = [
 ];
 
 const socialLinks = [
-  { icon: FiGithub, href: 'https://github.com/rafarezandrya', label: 'GitHub' },
-  { icon: FiLinkedin, href: 'https://linkedin.com/in/rafarezandrya', label: 'LinkedIn' },
-  { icon: FiInstagram, href: 'https://instagram.com/rafarezandrya_', label: 'Instagram' },
+  { icon: FiGithub, href: 'https://github.com/rafareza', label: 'GitHub' },
+  { icon: FiLinkedin, href: 'https://www.linkedin.com/in/rafa-rezandrya-jaelani-070137391', label: 'LinkedIn' },
+  { icon: FiInstagram, href: 'https://www.instagram.com/rafa.reza_/', label: 'Instagram' },
 ];
 
 export default function Footer() {
