@@ -35,7 +35,7 @@ const projects = [
     desc: 'Personal Portofolio Website',
     tech: ['React', 'Vite', 'JavaScript'],
     github: 'https://github.com/rafarezandrya',
-    demo: 'https://rafareza.vercel.app',
+    demo: 'https://rafareza-three.vercel.app/',
   },
   {
     icon: FaCoffee,
