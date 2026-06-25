@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion';
 import {
-  FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNodeJs, FaGitAlt, FaFigma, FaBootstrap,
+  FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNodeJs, FaGitAlt, FaFigma, FaBootstrap, FaFilm,
 } from 'react-icons/fa';
 import {
-  SiTypescript, SiTailwindcss, SiVite, SiMysql,
+  SiTailwindcss, SiVite, SiMysql,
 } from 'react-icons/si';
 import SectionHeader from './SectionHeader';
 import './SkillsSection.css';
@@ -13,7 +13,7 @@ const skills = [
   { name: 'CSS3', icon: FaCss3Alt, color: '#1572b6' },
   { name: 'JavaScript', icon: FaJsSquare, color: '#f7df1e' },
   { name: 'React', icon: FaReact, color: '#61dafb' },
-  { name: 'TypeScript', icon: SiTypescript, color: '#3178c6' },
+  { name: 'CapCut', icon: FaFilm, color: '#00c4cc' },
   { name: 'Tailwind CSS', icon: SiTailwindcss, color: '#06b6d4' },
   { name: 'Bootstrap', icon: FaBootstrap, color: '#7952b3' },
   { name: 'Node.js', icon: FaNodeJs, color: '#339933' },
