@@ -51,7 +51,7 @@ export default function AboutSection() {
               </div>
 
               <p>
-                I am an Information Systems student at Gunadarma University with an interest and passion for front-end web development, 
+                I am an Information System student at Gunadarma University with an interest and passion for front-end web development, 
                 data analytics, and UI/UX design.
               </p>
               <p>

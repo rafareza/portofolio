@@ -63,7 +63,7 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8, duration: 0.5 }}
         >
-          Information Systems student at Gunadarma University. Passionate and technology enthusiast
+          Information System student at Gunadarma University. Passionate and technology enthusiast
         </motion.p>
 
         <motion.div
@@ -77,7 +77,7 @@ export default function HeroSection() {
             View My Work
           </NeonButton>
           <NeonButton
-            href="https://drive.google.com/file/d/1SQR43RgAO0M3AYoM7d6cjFhecVRrn9bg/view"
+            href="https://drive.google.com/file/d/1gp1snC_LIN6on8djsW015UK_L1XzwivC/view"
             variant="secondary"
           >
             <FiFileText />
