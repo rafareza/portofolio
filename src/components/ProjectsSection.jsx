@@ -10,7 +10,7 @@ const projects = [
     title: 'Mental Health Detection',
     desc: 'A mental health detection website using SVM and Naive Bayes algorithms. Built with Flask and machine learning models.',
     tech: ['Python', 'Flask', 'Machine Learning', 'SVM', 'Naive Bayes'],
-    github: 'https://github.com/rafarezandrya',
+    github: 'https://github.com/rafareza/mental-health',
     demo: null,
   },
   {
@@ -18,7 +18,7 @@ const projects = [
     title: 'Acacia Water',
     desc: 'Website for selling and purchasing water and gas at Acacia Water stores.',
     tech: ['React', 'Typescript', 'Supabase'],
-    github: 'https://github.com/rafarezandrya',
+    github: 'https://github.com/rafareza/acacia-water',
     demo: 'https://acacia-water.vercel.app/',
   },
   {
@@ -26,7 +26,7 @@ const projects = [
     title: 'Website Bunga Indah',
     desc: 'Website for selling and purchasing flowers at the Bunga Indah shop',
     tech: ['PHP', 'MySQL', 'Bootstrap'],
-    github: 'https://github.com/rafarezandrya',
+    github: 'https://github.com/rafareza/bunga-indah',
     demo: null,
   },
   {
@@ -34,7 +34,7 @@ const projects = [
     title: 'Portfolio Website',
     desc: 'Personal Portofolio Website',
     tech: ['React', 'Vite', 'JavaScript'],
-    github: 'https://github.com/rafarezandrya',
+    github: 'https://github.com/rafareza/portofolio',
     demo: 'https://rafareza-three.vercel.app/',
   },
   {

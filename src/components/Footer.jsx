@@ -33,7 +33,7 @@ export default function Footer() {
           <div className="footer__brand">
             <h3 className="footer__brand-name">Rafa Rezandrya</h3>
             <p className="footer__brand-desc">
-              Information Systems student at Gunadarma University. Passionate and technology enthusiast
+              Information System student at Gunadarma University. Passionate and technology enthusiast
             </p>
           </div>
 
