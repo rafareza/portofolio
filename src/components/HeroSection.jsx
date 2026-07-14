@@ -77,7 +77,7 @@ export default function HeroSection() {
             View My Work
           </NeonButton>
           <NeonButton
-            href="https://drive.google.com/file/d/1gp1snC_LIN6on8djsW015UK_L1XzwivC/view"
+            href="https://drive.google.com/file/d/1gp1snC_LIN6on8djsW015UK_L1XzwivC/view?usp=sharing"
             variant="secondary"
           >
             <FiFileText />
