@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { FiGithub, FiExternalLink } from 'react-icons/fi';
-import { FaBrain, FaLeaf, FaStore, FaBriefcase, FaCoffee } from 'react-icons/fa';
+import { FaBrain, FaLeaf, FaStore, FaBriefcase, FaCoffee, FaPiggyBank } from 'react-icons/fa';
 import SectionHeader from './SectionHeader';
 import './ProjectsSection.css';
 
@@ -44,6 +44,14 @@ const projects = [
     tech: ['Figma', 'UI/UX Design'],
     github: null,
     demo: 'https://www.figma.com/proto/KAwUZgVfSJbND6TGMCthHt/jacoffee?page-id=0%3A1&node-id=431-6742&p=f&viewport=-1638%2C257%2C0.18&t=nzovOmIiJ7AaWPhI-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=431%3A6720',
+  },
+  {
+    icon: FaPiggyBank,
+    title: 'Kasku',
+    desc: 'Web-based application for financial record.',
+    tech: ['React', 'Typescript', 'Supabase'],
+    github: 'https://github.com/rafareza/Kasku',
+    demo: 'https://kasku-ten.vercel.app/',
   },
 ];
 
