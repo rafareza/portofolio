@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { FiGithub, FiExternalLink } from 'react-icons/fi';
-import { FaBrain, FaLeaf, FaStore, FaBriefcase, FaCoffee, FaPiggyBank } from 'react-icons/fa';
+import { FaBrain, FaWater, FaLeaf, FaLaptopCode, FaCoffee, FaPiggyBank, FaChartLine } from 'react-icons/fa';
 import SectionHeader from './SectionHeader';
 import './ProjectsSection.css';
 
@@ -14,7 +14,7 @@ const projects = [
     demo: null,
   },
   {
-    icon: FaLeaf,
+    icon: FaWater,
     title: 'Acacia Water',
     desc: 'Website for selling and purchasing water and gas at Acacia Water stores.',
     tech: ['React', 'Typescript', 'Supabase'],
@@ -22,7 +22,7 @@ const projects = [
     demo: 'https://acacia-water.vercel.app/',
   },
   {
-    icon: FaStore,
+    icon: FaLeaf,
     title: 'Website Bunga Indah',
     desc: 'Website for selling and purchasing flowers at the Bunga Indah shop',
     tech: ['PHP', 'MySQL', 'Bootstrap'],
@@ -30,7 +30,7 @@ const projects = [
     demo: null,
   },
   {
-    icon: FaBriefcase,
+    icon: FaLaptopCode,
     title: 'Portfolio Website',
     desc: 'Personal Portofolio Website',
     tech: ['React', 'Vite', 'JavaScript'],
@@ -52,6 +52,13 @@ const projects = [
     tech: ['React', 'Typescript', 'Supabase'],
     github: 'https://github.com/rafareza/Kasku',
     demo: 'https://kasku-ten.vercel.app/',
+  },
+  {
+    icon: FaChartLine,
+    title: 'Model Comparison And Sentiment Analysis',
+    desc: 'Comparison of models and sentiment analysis of the NotebookLM application using SVM and Naive Bayes.',
+    tech: ['Python', 'Machine Learning', 'SVM', 'Naive Bayes'],
+    demo: 'https://colab.research.google.com/drive/1RVEEBxJNTDvriXgvI4jgGw8KMCf16EII?usp=sharing',
   },
 ];
 

@@ -8,7 +8,7 @@ const infoCards = [
   { icon: FiUser, label: 'Name', value: 'Rafa Rezandrya Jaelani' },
   { icon: FiBookOpen, label: 'Major', value: 'Information System' },
   { icon: FiMapPin, label: 'Location', value: 'Bekasi, Indonesia' },
-  { icon: FiAward, label: 'GPA', value: '3.72 / 4.00' },
+  { icon: FiAward, label: 'GPA', value: '3.73 / 4.00' },
 ];
 
 const containerVariants = {
@@ -40,7 +40,7 @@ export default function AboutSection() {
             <div className="about-section__bio-card">
               <div className="about-section__quote-mark">"</div>
               
-              <div className="about-section__avatar-wrapper" title="Ganti '/profile.jpg' dengan fotomu">
+              <div className="about-section__avatar-wrapper" title="poto profile">
                 <img 
                   src={rezaImg} 
                   alt="Profile" 

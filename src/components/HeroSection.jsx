@@ -18,15 +18,6 @@ export default function HeroSection() {
       </div>
 
       <div className="container hero-section__content">
-        <motion.div
-          className="hero-section__badge"
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.2, duration: 0.5 }}
-        >
-          <span className="hero-section__wave">👋</span>
-          <span>HELLO, I'M</span>
-        </motion.div>
 
         <motion.h1
           className="hero-section__name"
