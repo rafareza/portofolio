@@ -40,7 +40,7 @@ export default function HeroSection() {
               "Frontend Web Developer",
               "Data Analyst",
               "UI/UX Designer",
-              "Vibe Coder"
+              "Generative AI"
             ]}
             className="hero-section__role-text"
             interval={2500}
@@ -68,7 +68,7 @@ export default function HeroSection() {
             View My Work
           </NeonButton>
           <NeonButton
-            href="https://drive.google.com/file/d/1gp1snC_LIN6on8djsW015UK_L1XzwivC/view?usp=sharing"
+            href="https://drive.google.com/file/d/1_2zJtTzE28rtt7OojlwT24COLIAPRGy9/view?usp=sharing"
             variant="secondary"
           >
             <FiFileText />
