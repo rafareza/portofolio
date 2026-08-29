@@ -3,7 +3,7 @@ import {
   FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNodeJs, FaGitAlt, FaFigma, FaBootstrap, FaFilm,
 } from 'react-icons/fa';
 import {
-  SiTailwindcss, SiVite, SiMysql,
+  SiTailwindcss, SiVite, SiMysql, SiPython,
 } from 'react-icons/si';
 import SectionHeader from './SectionHeader';
 import './SkillsSection.css';
@@ -21,6 +21,7 @@ const skills = [
   { name: 'Figma', icon: FaFigma, color: '#f24e1e' },
   { name: 'Vite', icon: SiVite, color: '#646cff' },
   { name: 'MySQL', icon: SiMysql, color: '#4479a1' },
+  { name: 'Python', icon: SiPython, color: '#3776AB'},
 ];
 
 const containerVariants = {
